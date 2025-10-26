@@ -1,0 +1,21 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+# Bỏ môi trường ảo và cache
+bin/
+lib/
+lib64/
+include/
+__pycache__/
+*.pyc
+*.pyo
+
+# File nhạy cảm và dữ liệu runtime
+config_alert.py
+config_mqtt.py
+*.json
+*.wav
+*.zip
+/tmp/
+*.log
+
+# Model lớn
+models/
